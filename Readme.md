@@ -1,4 +1,4 @@
-# Uber HTML5 Template
+# Pulse HTML5 Template
 
 ## Preview
 
