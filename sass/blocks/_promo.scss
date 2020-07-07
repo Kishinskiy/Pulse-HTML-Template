@@ -52,4 +52,28 @@
             text-decoration: underline;
         }
     }
+
+    @include sm{
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 90px;
+        }
+
+        &__header {
+            text-align: center;
+        }
+    }
+    @include lg {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 90px;
+        }
+        &__header {
+            text-align: center;
+        }
+    }
 }
