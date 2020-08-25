@@ -53,7 +53,8 @@
         }
     }
 
-    @include sm{
+    @include xs {
+        min-width: 550px;
         &__wrapper {
             display: flex;
             flex-direction: column;
@@ -65,7 +66,12 @@
             text-align: center;
         }
     }
+    @include md {
+        min-width: 848px;
+    }
+
     @include lg {
+
         &__wrapper {
             display: flex;
             flex-direction: column;

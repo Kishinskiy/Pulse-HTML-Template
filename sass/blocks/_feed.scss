@@ -31,4 +31,12 @@
         font-weight: 300;
         margin-top: 10px;
     }
+
+    @include xs {
+        min-width: 550px;
+    }
+
+    @include md {
+        min-width: 848px;
+    }
 }

@@ -20,4 +20,13 @@
     &_mt25 {
         margin-top: 25px;
     }
+
+    @include xs {
+        padding-top: 60px;
+        margin: 0 auto;
+    }
+    @include md {
+        padding-top: 20;
+        margin: 0;
+    }
 }

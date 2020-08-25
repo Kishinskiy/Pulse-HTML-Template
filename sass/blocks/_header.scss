@@ -34,12 +34,12 @@
         align-items: flex-end;
     }
 
-    @include sm{
+    @include xs {
         flex-direction: column;
         height: 200px;
     }
 
-    @include rwd(640) {
+    @include md {
         flex-direction: row;
         height: 100px;
     }

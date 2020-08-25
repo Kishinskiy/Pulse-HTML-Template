@@ -54,4 +54,12 @@
         height: 630px;
         border: none;
     }
+
+    @include xs {
+        min-width: 550px;
+    }
+
+    @include md {
+        min-width: 848px;
+    }
 }
