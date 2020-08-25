@@ -1,7 +1,7 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     &__logo {
         width: 250px;
         img {
@@ -33,4 +33,17 @@
         flex-direction: column;
         align-items: flex-end;
     }
+
+    @include sm{
+        flex-direction: column;
+        height: 200px;
+    }
+
+    @include rwd(640) {
+        flex-direction: row;
+        height: 100px;
+    }
+
+
+
 }
